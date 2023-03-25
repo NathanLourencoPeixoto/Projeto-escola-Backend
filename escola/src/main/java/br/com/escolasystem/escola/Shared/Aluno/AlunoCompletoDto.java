@@ -1,8 +1,8 @@
-package br.com.theschool.Shared.Aluno;
+package br.com.escolasystem.escola.Shared.Aluno;
 
 import java.util.List;
 
-import br.com.theschool.model.Pessoa;
+import br.com.escolasystem.escola.model.Pessoa;
 
 public class AlunoCompletoDto {
     private String id;

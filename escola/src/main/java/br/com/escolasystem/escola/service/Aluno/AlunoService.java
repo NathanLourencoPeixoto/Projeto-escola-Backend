@@ -1,11 +1,11 @@
-package br.com.theschool.service.Aluno;
+package br.com.escolasystem.escola.service.Aluno;
 
 import java.util.List;
 import java.util.Optional;
 
-import br.com.theschool.Shared.Aluno.AlunoCompletoDto;
-import br.com.theschool.Shared.Aluno.AlunoDto;
-import br.com.theschool.model.Aluno;
+import br.com.escolasystem.escola.Shared.Aluno.AlunoCompletoDto;
+import br.com.escolasystem.escola.Shared.Aluno.AlunoDto;
+import br.com.escolasystem.escola.model.Aluno;
 
 public interface AlunoService {
     Optional<AlunoCompletoDto> createAluno(String escolaId, String id,Aluno aluno);

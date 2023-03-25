@@ -1,4 +1,4 @@
-package br.com.theschool.model;
+package br.com.escolasystem.escola.model;
 
 import java.util.List;
 

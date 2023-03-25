@@ -1,4 +1,4 @@
-package br.com.theschool.Shared.Aluno;
+package br.com.escolasystem.escola.Shared.Aluno;
 
 import java.util.List;
 

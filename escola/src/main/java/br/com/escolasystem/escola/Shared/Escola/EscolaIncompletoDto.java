@@ -1,4 +1,4 @@
-package br.com.theschool.Shared.Escola;
+package br.com.escolasystem.escola.Shared.Escola;
 
 public class EscolaIncompletoDto {
     private String id;

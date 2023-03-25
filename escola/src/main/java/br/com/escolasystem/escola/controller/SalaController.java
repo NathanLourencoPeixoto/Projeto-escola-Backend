@@ -1,4 +1,4 @@
-package br.com.theschool.controller;
+package br.com.escolasystem.escola.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.theschool.Shared.Sala.SalaCompletoDto;
-import br.com.theschool.Shared.Sala.SalaDto;
-import br.com.theschool.model.Sala;
-import br.com.theschool.service.Sala.SalaServiceImp;
+import br.com.escolasystem.escola.Shared.Sala.SalaCompletoDto;
+import br.com.escolasystem.escola.Shared.Sala.SalaDto;
+import br.com.escolasystem.escola.model.Sala;
+import br.com.escolasystem.escola.service.Sala.SalaServiceImp;
 
 @RestController
 @RequestMapping("/escolas")

@@ -1,4 +1,4 @@
-package br.com.theschool.service.Aluno;
+package br.com.escolasystem.escola.service.Aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,16 +9,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
 
-import br.com.theschool.Shared.Aluno.AlunoCompletoDto;
-import br.com.theschool.Shared.Aluno.AlunoDto;
-import br.com.theschool.httpClient.PessoaClient;
-import br.com.theschool.model.Aluno;
-import br.com.theschool.model.Escola;
-import br.com.theschool.model.Pessoa;
-import br.com.theschool.model.Sala;
-import br.com.theschool.repository.AlunoRepository;
-import br.com.theschool.repository.EscolaRepository;
-import br.com.theschool.repository.SalaRepository;
+import br.com.escolasystem.escola.Shared.Aluno.AlunoCompletoDto;
+import br.com.escolasystem.escola.Shared.Aluno.AlunoDto;
+import br.com.escolasystem.escola.httpClient.PessoaClient;
+import br.com.escolasystem.escola.model.Aluno;
+import br.com.escolasystem.escola.model.Escola;
+import br.com.escolasystem.escola.model.Pessoa;
+import br.com.escolasystem.escola.model.Sala;
+import br.com.escolasystem.escola.repository.AlunoRepository;
+import br.com.escolasystem.escola.repository.EscolaRepository;
+import br.com.escolasystem.escola.repository.SalaRepository;
 
 @Service
 public class AlunoServiceImp implements AlunoService{

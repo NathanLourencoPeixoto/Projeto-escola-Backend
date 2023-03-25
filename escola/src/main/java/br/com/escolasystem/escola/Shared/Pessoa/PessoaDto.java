@@ -1,4 +1,4 @@
-package br.com.theschool.Shared.Pessoa;
+package br.com.escolasystem.escola.Shared.Pessoa;
 
 import java.util.List;
 

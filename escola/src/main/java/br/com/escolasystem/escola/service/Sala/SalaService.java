@@ -1,11 +1,11 @@
-package br.com.theschool.service.Sala;
+package br.com.escolasystem.escola.service.Sala;
 
 import java.util.List;
 import java.util.Optional;
 
-import br.com.theschool.Shared.Sala.SalaCompletoDto;
-import br.com.theschool.Shared.Sala.SalaDto;
-import br.com.theschool.model.Sala;
+import br.com.escolasystem.escola.Shared.Sala.SalaCompletoDto;
+import br.com.escolasystem.escola.Shared.Sala.SalaDto;
+import br.com.escolasystem.escola.model.Sala;
 
 public interface SalaService {
     Optional<SalaCompletoDto> createSala(String escola,Sala sala);

@@ -1,4 +1,4 @@
-package br.com.theschool.Util;
+package br.com.escolasystem.escola.Util;
 
 import java.util.List;
 import java.util.stream.Collectors;

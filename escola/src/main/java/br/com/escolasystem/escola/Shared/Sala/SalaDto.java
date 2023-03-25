@@ -1,4 +1,4 @@
-package br.com.theschool.Shared.Sala;
+package br.com.escolasystem.escola.Shared.Sala;
 
 public class SalaDto {
     private String id;

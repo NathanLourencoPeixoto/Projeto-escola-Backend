@@ -1,4 +1,4 @@
-package br.com.theschool.controller;
+package br.com.escolasystem.escola.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.theschool.Shared.Escola.EscolaCompletoDto;
-import br.com.theschool.Shared.Escola.EscolaIncompletoDto;
-import br.com.theschool.model.Escola;
-import br.com.theschool.service.Escola.EscolaServiceImp;
+import br.com.escolasystem.escola.Shared.Escola.EscolaCompletoDto;
+import br.com.escolasystem.escola.Shared.Escola.EscolaIncompletoDto;
+import br.com.escolasystem.escola.model.Escola;
+import br.com.escolasystem.escola.service.Escola.EscolaServiceImp;
 
 @RestController
 @RequestMapping("/escolas")

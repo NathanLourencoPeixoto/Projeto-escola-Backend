@@ -1,4 +1,4 @@
-package br.com.theschool.service.Escola;
+package br.com.escolasystem.escola.service.Escola;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,14 +8,14 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.theschool.Shared.Escola.EscolaCompletoDto;
-import br.com.theschool.Shared.Escola.EscolaIncompletoDto;
-import br.com.theschool.model.Aluno;
-import br.com.theschool.model.Escola;
-import br.com.theschool.model.Sala;
-import br.com.theschool.repository.AlunoRepository;
-import br.com.theschool.repository.EscolaRepository;
-import br.com.theschool.repository.SalaRepository;
+import br.com.escolasystem.escola.Shared.Escola.EscolaCompletoDto;
+import br.com.escolasystem.escola.Shared.Escola.EscolaIncompletoDto;
+import br.com.escolasystem.escola.model.Aluno;
+import br.com.escolasystem.escola.model.Escola;
+import br.com.escolasystem.escola.model.Sala;
+import br.com.escolasystem.escola.repository.AlunoRepository;
+import br.com.escolasystem.escola.repository.EscolaRepository;
+import br.com.escolasystem.escola.repository.SalaRepository;
 
 @Service
 public class EscolaServiceImp implements EscolaService{

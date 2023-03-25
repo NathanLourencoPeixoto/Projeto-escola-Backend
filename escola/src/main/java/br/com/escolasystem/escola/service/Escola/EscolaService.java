@@ -1,11 +1,11 @@
-package br.com.theschool.service.Escola;
+package br.com.escolasystem.escola.service.Escola;
 
 import java.util.List;
 import java.util.Optional;
 
-import br.com.theschool.Shared.Escola.EscolaCompletoDto;
-import br.com.theschool.Shared.Escola.EscolaIncompletoDto;
-import br.com.theschool.model.Escola;
+import br.com.escolasystem.escola.Shared.Escola.EscolaCompletoDto;
+import br.com.escolasystem.escola.Shared.Escola.EscolaIncompletoDto;
+import br.com.escolasystem.escola.model.Escola;
 
 public interface EscolaService {
     EscolaCompletoDto createEscola(Escola escola);
