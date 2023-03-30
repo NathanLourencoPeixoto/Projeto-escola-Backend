@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.controller;
+package br.com.escolasystem.professores.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.theschoolprofessores.professores.Shared.ProfessorCompletoDto;
-import br.com.theschoolprofessores.professores.Shared.ProfessorIncomplatoDto;
-import br.com.theschoolprofessores.professores.service.ProfessorServiceImplement;
+import br.com.escolasystem.professores.Shared.ProfessorCompletoDto;
+import br.com.escolasystem.professores.Shared.ProfessorIncomplatoDto;
+import br.com.escolasystem.professores.service.ProfessorServiceImplement;
 
 @RestController
 @RequestMapping("/professores")

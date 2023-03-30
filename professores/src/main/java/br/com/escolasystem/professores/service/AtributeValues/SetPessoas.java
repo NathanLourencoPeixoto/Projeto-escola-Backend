@@ -1,12 +1,12 @@
-package br.com.theschoolprofessores.professores.service.AtributeValues;
+package br.com.escolasystem.professores.service.AtributeValues;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.theschoolprofessores.professores.httpClient.PessoaClient;
-import br.com.theschoolprofessores.professores.model.Pessoa;
+import br.com.escolasystem.professores.httpClient.PessoaClient;
+import br.com.escolasystem.professores.model.Pessoa;
 
 @Service
 public class SetPessoas {

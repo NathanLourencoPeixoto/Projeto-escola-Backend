@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.model;
+package br.com.escolasystem.professores.model;
 
 public class Escola {
     private String id;

@@ -1,10 +1,10 @@
-package br.com.theschoolprofessores.professores.service;
+package br.com.escolasystem.professores.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import br.com.theschoolprofessores.professores.Shared.ProfessorCompletoDto;
-import br.com.theschoolprofessores.professores.Shared.ProfessorIncomplatoDto;
+import br.com.escolasystem.professores.Shared.ProfessorCompletoDto;
+import br.com.escolasystem.professores.Shared.ProfessorIncomplatoDto;
 
 public interface ProfessorService {
     Optional<ProfessorCompletoDto> createProfessor(ProfessorIncomplatoDto dto);

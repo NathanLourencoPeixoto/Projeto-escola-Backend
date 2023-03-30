@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.service;
+package br.com.escolasystem.professores.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,15 +7,15 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.theschoolprofessores.professores.Shared.ProfessorCompletoDto;
-import br.com.theschoolprofessores.professores.Shared.ProfessorIncomplatoDto;
-import br.com.theschoolprofessores.professores.model.Escola;
-import br.com.theschoolprofessores.professores.model.Pessoa;
-import br.com.theschoolprofessores.professores.model.Professor;
-import br.com.theschoolprofessores.professores.repository.ProfessorRepository;
-import br.com.theschoolprofessores.professores.service.AtributeValues.SetPessoas;
-import br.com.theschoolprofessores.professores.service.Verify.EscolaCall;
-import br.com.theschoolprofessores.professores.service.Verify.PessoaCall;
+import br.com.escolasystem.professores.Shared.ProfessorCompletoDto;
+import br.com.escolasystem.professores.Shared.ProfessorIncomplatoDto;
+import br.com.escolasystem.professores.model.Escola;
+import br.com.escolasystem.professores.model.Pessoa;
+import br.com.escolasystem.professores.model.Professor;
+import br.com.escolasystem.professores.repository.ProfessorRepository;
+import br.com.escolasystem.professores.service.AtributeValues.SetPessoas;
+import br.com.escolasystem.professores.service.Verify.EscolaCall;
+import br.com.escolasystem.professores.service.Verify.PessoaCall;
 
 @Service
 public class ProfessorServiceImplement implements ProfessorService{

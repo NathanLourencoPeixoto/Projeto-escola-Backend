@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.Util;
+package br.com.escolasystem.professores.Util;
 
 import java.util.List;
 import java.util.stream.Collectors;

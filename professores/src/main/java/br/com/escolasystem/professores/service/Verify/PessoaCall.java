@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.service.Verify;
+package br.com.escolasystem.professores.service.Verify;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.theschoolprofessores.professores.Shared.ProfessorIncomplatoDto;
-import br.com.theschoolprofessores.professores.httpClient.PessoaClient;
-import br.com.theschoolprofessores.professores.model.Pessoa;
-import br.com.theschoolprofessores.professores.model.Professor;
+import br.com.escolasystem.professores.Shared.ProfessorIncomplatoDto;
+import br.com.escolasystem.professores.httpClient.PessoaClient;
+import br.com.escolasystem.professores.model.Pessoa;
+import br.com.escolasystem.professores.model.Professor;
 
 @Service
 public class PessoaCall {

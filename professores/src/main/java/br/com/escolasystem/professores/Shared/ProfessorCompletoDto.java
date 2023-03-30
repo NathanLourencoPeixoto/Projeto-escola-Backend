@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.Shared;
+package br.com.escolasystem.professores.Shared;
 
 public class ProfessorCompletoDto {
     

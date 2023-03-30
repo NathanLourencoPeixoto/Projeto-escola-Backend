@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.model;
+package br.com.escolasystem.professores.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 

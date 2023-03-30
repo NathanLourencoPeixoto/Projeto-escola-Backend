@@ -1,4 +1,4 @@
-package br.com.theschoolprofessores.professores.httpClient;
+package br.com.escolasystem.professores.httpClient;
 
 import java.util.Optional;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import br.com.theschoolprofessores.professores.model.Escola;
+import br.com.escolasystem.professores.model.Escola;
 
 @FeignClient("schools")
 public interface EscolaClient {
